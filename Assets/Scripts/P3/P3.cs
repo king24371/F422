@@ -21,6 +21,7 @@ public class P3 : MonoBehaviour
             if (i == index)
             {
                 Topics[i].gameObject.SetActive(true);
+                //Topics[i].transform.GetComponent<P3QA>().Reset();
             }
             else
                 Topics[i].gameObject.SetActive(false);

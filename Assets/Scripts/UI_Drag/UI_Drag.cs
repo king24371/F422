@@ -176,6 +176,12 @@ public class UI_Drag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
     {
         Back();
     }
+
+    public virtual void backPos()
+    {
+        transform.localPosition = orginPos;
+    }
+
     public GameObject CreateClone()
     {
         GameObject go = Instantiate(gameObject, parentTrans);

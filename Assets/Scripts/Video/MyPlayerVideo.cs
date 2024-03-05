@@ -8,18 +8,21 @@ using UnityEngine.Video;
 public class MyPlayerVideo : VideoCall
 {
     [SerializeField]
-    PlayImg play,stop;
+    PlayImg play, stop;
     [SerializeField]
     Slider topBar;
     [SerializeField]
     Image maskImg;
-    
+    [SerializeField]
+    DirBGManager baby;
+
     public bool isStop = true;
     bool isNowTime; //幀數與當前時間相同
     long frameTimeCount; //幀數計算
     ulong allVideoLength; //影檔總幀數
     float barValue;
     bool isVideoStart = false; //已經開始播放
+    bool isEnd;
 
     private void Awake()
     {
@@ -28,7 +31,7 @@ public class MyPlayerVideo : VideoCall
 
     void Start()
     {
-        GetComponent<Button>().onClick.AddListener(delegate 
+        GetComponent<Button>().onClick.AddListener(delegate
         {
             Play();
         });
@@ -93,6 +96,7 @@ public class MyPlayerVideo : VideoCall
         if (!vp.isPlaying) vp.Play();
         vp.frame = frameTimeCount;
         isNowTime = true;
+        isEnd = false;
     }
     void CountBarTime()
     {
@@ -115,6 +119,16 @@ public class MyPlayerVideo : VideoCall
         if (frameTimeCount >= (long)allVideoLength)
         {
             topBar.value = 1;
+            if (!isEnd)
+            {
+                isEnd = true;
+                if (baby != null)
+                {
+                    baby.gameObject.SetActive(true);
+                    baby.PlayDir();
+                }
+                    
+            }
         }
         else
         {

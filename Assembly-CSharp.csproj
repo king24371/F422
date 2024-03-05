@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{773A0755-282A-240A-3CDB-B9328941BF2E}</ProjectGuid>
+    <ProjectGuid>{5343F69B-0B15-F891-D1BF-79045B9B9286}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,23 +56,30 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\P7\P3SelectCard.cs" />
+    <Compile Include="Assets\Scripts\P10\P10SelectImg.cs" />
+    <Compile Include="Assets\Scripts\P5\P5PFB.cs" />
+    <Compile Include="Assets\Scripts\P10\P10QA2.cs" />
+    <Compile Include="Assets\Scripts\P5\P5SelectCard.cs" />
     <Compile Include="Assets\Scripts\P3\P3QA.cs" />
-    <Compile Include="Assets\Scripts\P7\P7.cs" />
+    <Compile Include="Assets\Scripts\P10\P10.cs" />
     <Compile Include="Assets\Scripts\Manager\BGManager.cs" />
     <Compile Include="Assets\Scripts\Video\TimeBar.cs" />
     <Compile Include="Assets\Scripts\Video\VideoCall.cs" />
+    <Compile Include="Assets\Scripts\Manager\btnScript_OY.cs" />
+    <Compile Include="Assets\Scripts\Manager\btnScript.cs" />
     <Compile Include="Assets\Scripts\P3\P3SelectImg.cs" />
+    <Compile Include="Assets\Scripts\P5\P5Target.cs" />
+    <Compile Include="Assets\Scripts\P7\P7SelectCard.cs" />
     <Compile Include="Assets\Scripts\UI_Drag\UI_Drag.cs" />
     <Compile Include="Assets\Scripts\Manager\Teacher.cs" />
     <Compile Include="Assets\Scripts\Video\MyPlayerVideo.cs" />
     <Compile Include="Assets\Scripts\StageBtns.cs" />
-    <Compile Include="Assets\Scripts\P7\SortChildren.cs" />
     <Compile Include="Assets\Scripts\Video\PlayImg.cs" />
     <Compile Include="Assets\Scripts\Manager\DirBGManager.cs" />
+    <Compile Include="Assets\Scripts\P5\P5.cs" />
     <Compile Include="Assets\Scripts\P3\P3.cs" />
-    <Compile Include="Assets\Scripts\P5\P5QA.cs" />
-    <Compile Include="Assets\Scripts\P4\P4Anim.cs" />
+    <Compile Include="Assets\Scripts\P7\P7Target.cs" />
+    <Compile Include="Assets\Scripts\P7\P7.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -798,7 +805,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{3E091BFD-F8E4-F8F9-D67C-0B39E48F5C1F}</Project>
+      <Project>{3F879958-8E62-FBF2-1B67-7C3A6FF08971}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>

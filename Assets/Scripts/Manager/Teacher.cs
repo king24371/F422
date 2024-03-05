@@ -15,7 +15,18 @@ public class Teacher : MonoBehaviour
         headBtn = GetComponent<Button>();
         headBtn.onClick.AddListener(() =>
         {
-            commuFrame.gameObject.SetActive(true);
+            if (sprs.Length == 1)
+                commuFrame.gameObject.SetActive(!commuFrame.gameObject.activeSelf);
+            else
+            {
+                if (commuFrame.sprite == sprs[sprs.Length - 1])
+                {
+                    commuFrame.sprite = sprs[0];
+                    commuFrame.gameObject.SetActive(false);
+                }
+                else
+                    commuFrame.gameObject.SetActive(true);
+            }
         });
 
         nextBtn.onClick.AddListener(Next);

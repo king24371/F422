@@ -3,9 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class BGManager : MonoBehaviour
 {
+    public static BGManager inst;
+    private void Awake()
+    {
+        inst = this;
+    }
+
     public int sceneIndex = 0;
     [SerializeField]
     Button controlDirBtn;
@@ -87,6 +94,11 @@ public class BGManager : MonoBehaviour
         if (sceneIndex + index >= SceneManager.sceneCountInBuildSettings) return;
 
         StartCoroutine(CoLoading(index));
+    }
+    public void ContextChange(int index, string s)
+    {
+        print(dirMask.transform.GetChild(index - 2).gameObject.name);
+        dirMask.transform.GetChild(index - 2).GetComponent<TMP_Text>().text = s;
     }
     IEnumerator CoLoading(int index)
     {

@@ -16,41 +16,32 @@ EditorBuildSettings:
     guid: acd7cf25263f7bb469ae52e0bb1a638a
   - enabled: 1
     path: Assets/Scenes/P2Scene.unity
-    guid: b2e9e808037c1714dbaff17aefe756c8
-  - enabled: 1
-    path: Assets/Scenes/P3Scene.unity
-    guid: f7efb087ab3c50c48a2f17fc6f4fcd78
-  - enabled: 1
-    path: Assets/Scenes/P4Scene.unity
-    guid: fa12e692da097b64fa7f1fb73a465494
-  - enabled: 1
-    path: Assets/Scenes/P5Scene.unity
-    guid: 56693ce935afcd54db71d6176ed03666
-  - enabled: 1
-    path: Assets/Scenes/P6Scene.unity
-    guid: 8f9f087f5b3385c42998544045abd28c
-  - enabled: 1
-    path: Assets/Scenes/P7Scene.unity
-    guid: 3df28e7a2f8eca248adc2023e5442a42
-  - enabled: 1
-    path: Assets/Scenes/P8Scene.unity
     guid: 906b0323a22b48c4d976b77816296d01
   - enabled: 1
+    path: Assets/Scenes/P3Scene.unity
+    guid: b2e9e808037c1714dbaff17aefe756c8
+  - enabled: 1
+    path: Assets/Scenes/P4Scene.unity
+    guid: f7efb087ab3c50c48a2f17fc6f4fcd78
+  - enabled: 1
+    path: Assets/Scenes/P5Scene.unity
+    guid: 75177507cc0af9b458adcf8800f6e0f9
+  - enabled: 1
+    path: Assets/Scenes/P6Scene.unity
+    guid: 69d07ee442277c942986fe389a987bd2
+  - enabled: 1
+    path: Assets/Scenes/P7Scene.unity
+    guid: dcf2444bbce5c6340a37426ae1756761
+  - enabled: 1
+    path: Assets/Scenes/P8Scene.unity
+    guid: 27e0c9a2a182fe24ea63a323c4a13b58
+  - enabled: 1
     path: Assets/Scenes/P9Scene.unity
-    guid: 490679a0a063e7c488030983637315cd
+    guid: b97510b06ac2c194c8fc6933ebb17cc6
   - enabled: 1
     path: Assets/Scenes/P10Scene.unity
-    guid: 11415821a7acf4d4da967d0a3674e306
+    guid: 9b9db5fb7538cb94faccf86636f58f4e
   - enabled: 1
     path: Assets/Scenes/P11Scene.unity
-    guid: 34595fa00e391794a888d8b10e3cee01
-  - enabled: 1
-    path: Assets/Scenes/P12Scene.unity
-    guid: 79aad804e9cbfd24e9fbb38a99cafb4c
-  - enabled: 1
-    path: Assets/Scenes/P13Scene.unity
-    guid: bd854938ba8c8b24589e7f6b196282bc
-  - enabled: 1
-    path: Assets/Scenes/P14Scene.unity
     guid: 8c8a19bad532a79458eb31fa18a66a5b
   m_configObjects: {}
