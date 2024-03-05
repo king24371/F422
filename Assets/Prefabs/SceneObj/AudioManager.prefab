@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &516735986456878470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 515214488314759360}
+  - component: {fileID: 447994027206253644}
+  - component: {fileID: 485649121187219714}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &515214488314759360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516735986456878470}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &447994027206253644
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516735986456878470}
+  m_Enabled: 1
+--- !u!114 &485649121187219714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516735986456878470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a398ad67e62f3c44ac5cc2f373f2459, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BGMSetting: []
+  SFXSetting:
+  - Name: Right
+    Clip:
+    - {fileID: 8300000, guid: c323bec346d3c78448c0d0fda6416c7d, type: 3}
+    Loop: 0
+    ResetTime: 1
+    Volume:
+      Volume: 1
+      IsRandom: 1
+      Max: 1
+      Min: 1
+    Pitch:
+      Pitch: 1
+      IsRandom: 0
+      Max: 1.1
+      Min: 1
+    MixerGroup: {fileID: 0}
+  - Name: Wrong
+    Clip:
+    - {fileID: 8300000, guid: 998fb348ee7fd9f43b417f0c3867440e, type: 3}
+    Loop: 0
+    ResetTime: 1
+    Volume:
+      Volume: 1
+      IsRandom: 1
+      Max: 1
+      Min: 1
+    Pitch:
+      Pitch: 1
+      IsRandom: 0
+      Max: 1.1
+      Min: 1
+    MixerGroup: {fileID: 0}
+  - Name: P2_Baby
+    Clip:
+    - {fileID: 8300000, guid: 28502c665bab0af4faa66396cd07f251, type: 3}
+    Loop: 0
+    ResetTime: 1
+    Volume:
+      Volume: 1
+      IsRandom: 1
+      Max: 1
+      Min: 1
+    Pitch:
+      Pitch: 1
+      IsRandom: 0
+      Max: 1.1
+      Min: 1
+    MixerGroup: {fileID: 0}
+  - Name: P4_Baby
+    Clip:
+    - {fileID: 8300000, guid: 39a1b1a2e5131cb4594dbc2709f97223, type: 3}
+    Loop: 0
+    ResetTime: 1
+    Volume:
+      Volume: 1
+      IsRandom: 1
+      Max: 1
+      Min: 1
+    Pitch:
+      Pitch: 1
+      IsRandom: 0
+      Max: 1.1
+      Min: 1
+    MixerGroup: {fileID: 0}
+  - Name: P5_Baby
+    Clip:
+    - {fileID: 8300000, guid: d1ce0c6bac5d9b54c9fff85ce53b1520, type: 3}
+    Loop: 0
+    ResetTime: 1
+    Volume:
+      Volume: 1
+      IsRandom: 1
+      Max: 1
+      Min: 1
+    Pitch:
+      Pitch: 1
+      IsRandom: 0
+      Max: 1.1
+      Min: 1
+    MixerGroup: {fileID: 0}
+  - Name: P6_Baby
+    Clip:
+    - {fileID: 8300000, guid: 2c23c04ca11e7e1439c7e00c6e67d65b, type: 3}
+    Loop: 0
+    ResetTime: 1
+    Volume:
+      Volume: 1
+      IsRandom: 1
+      Max: 1
+      Min: 1
+    Pitch:
+      Pitch: 1
+      IsRandom: 0
+      Max: 1.1
+      Min: 1
+    MixerGroup: {fileID: 0}
+  - Name: P8_Baby
+    Clip:
+    - {fileID: 8300000, guid: a3c319e5acda884478ffc7975e82a241, type: 3}
+    Loop: 0
+    ResetTime: 1
+    Volume:
+      Volume: 1
+      IsRandom: 1
+      Max: 1
+      Min: 1
+    Pitch:
+      Pitch: 1
+      IsRandom: 0
+      Max: 1.1
+      Min: 1
+    MixerGroup: {fileID: 0}
+  - Name: P9_Baby
+    Clip:
+    - {fileID: 8300000, guid: 1980c14763e8e7d48bbc6277a13accf8, type: 3}
+    Loop: 0
+    ResetTime: 1
+    Volume:
+      Volume: 1
+      IsRandom: 1
+      Max: 1
+      Min: 1
+    Pitch:
+      Pitch: 1
+      IsRandom: 0
+      Max: 1.1
+      Min: 1
+    MixerGroup: {fileID: 0}
+  - Name: P3_Talk1
+    Clip:
+    - {fileID: 8300000, guid: d464072de8a1fac4694c66b9f67aaa1e, type: 3}
+    Loop: 0
+    ResetTime: 1
+    Volume:
+      Volume: 1
+      IsRandom: 1
+      Max: 1
+      Min: 1
+    Pitch:
+      Pitch: 1
+      IsRandom: 0
+      Max: 1.1
+      Min: 1
+    MixerGroup: {fileID: 0}
+  - Name: P3_Talk2
+    Clip:
+    - {fileID: 8300000, guid: 674c17db184f7a542b23693c8d2c995d, type: 3}
+    Loop: 0
+    ResetTime: 1
+    Volume:
+      Volume: 1
+      IsRandom: 1
+      Max: 1
+      Min: 1
+    Pitch:
+      Pitch: 1
+      IsRandom: 0
+      Max: 1.1
+      Min: 1
+    MixerGroup: {fileID: 0}
+  - Name: P3_Talk3
+    Clip:
+    - {fileID: 8300000, guid: 60a4e4d8ad3d2fa48a9ca907c71b0ad5, type: 3}
+    Loop: 0
+    ResetTime: 1
+    Volume:
+      Volume: 1
+      IsRandom: 1
+      Max: 1
+      Min: 1
+    Pitch:
+      Pitch: 1
+      IsRandom: 0
+      Max: 1.1
+      Min: 1
+    MixerGroup: {fileID: 0}
+  - Name: P3_Talk4
+    Clip:
+    - {fileID: 8300000, guid: 197f4b14a22625745afe701993abe1bf, type: 3}
+    Loop: 0
+    ResetTime: 1
+    Volume:
+      Volume: 1
+      IsRandom: 1
+      Max: 1
+      Min: 1
+    Pitch:
+      Pitch: 1
+      IsRandom: 0
+      Max: 1.1
+      Min: 1
+    MixerGroup: {fileID: 0}
+  - Name: P3_Talk5
+    Clip:
+    - {fileID: 8300000, guid: 78a0e2d4c7e2c4e4da73ce01b8cd9db3, type: 3}
+    Loop: 0
+    ResetTime: 1
+    Volume:
+      Volume: 1
+      IsRandom: 1
+      Max: 1
+      Min: 1
+    Pitch:
+      Pitch: 1
+      IsRandom: 0
+      Max: 1.1
+      Min: 1
+    MixerGroup: {fileID: 0}
+  - Name: RightCheer
+    Clip:
+    - {fileID: 8300000, guid: 76e7d61a2b813474bbaee6684064368f, type: 3}
+    Loop: 0
+    ResetTime: 1
+    Volume:
+      Volume: 1
+      IsRandom: 1
+      Max: 1
+      Min: 1
+    Pitch:
+      Pitch: 1
+      IsRandom: 0
+      Max: 1.1
+      Min: 1
+    MixerGroup: {fileID: 0}
+  - Name: Hand
+    Clip:
+    - {fileID: 8300000, guid: ebd3194eb8b42f741a5f3a84b813f0a0, type: 3}
+    Loop: 0
+    ResetTime: 1
+    Volume:
+      Volume: 1
+      IsRandom: 1
+      Max: 1
+      Min: 1
+    Pitch:
+      Pitch: 1
+      IsRandom: 0
+      Max: 1.1
+      Min: 1
+    MixerGroup: {fileID: 0}
+  - Name: Think
+    Clip:
+    - {fileID: 8300000, guid: 6e9e97f5e51384343b34b2ea548db51b, type: 3}
+    Loop: 0
+    ResetTime: 1
+    Volume:
+      Volume: 1
+      IsRandom: 1
+      Max: 1
+      Min: 1
+    Pitch:
+      Pitch: 1
+      IsRandom: 0
+      Max: 1.1
+      Min: 1
+    MixerGroup: {fileID: 0}
